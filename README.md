@@ -1,7 +1,7 @@
 # Shower
 Сross-browser presentation template.
 
-This is my usefull fork of the [shower presentation template}(http://pepelsbey.github.com/shower/) from Vadim Makeev (Opera). I have reduce the template and include my custom styles and solutions to work with my requirements.
+This is my usefull fork of the [shower presentation template](http://pepelsbey.github.com/shower/) from Vadim Makeev (Opera). I have reduce the template and include my custom styles and solutions to work with my requirements.
 
 ### Usage
 * Press any slide to enter presentation mode
