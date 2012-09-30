@@ -1,4 +1,4 @@
-(function () {
+( function () {
 	var url = window.location,
 		body = document.body,
 		slides = document.querySelectorAll('div.slide'),
