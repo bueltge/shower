@@ -1,31 +1,44 @@
 <!DOCTYPE HTML>
 <html lang="ru-RU">
 <head>
-	<title>Shower</title>
+	<title>Шаблон презентаций Shower</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=1274, user-scalable=no">
+<<<<<<< HEAD
 	<link media="screen" rel="stylesheet" href="themes/ribbon/styles/style.css">
 	<link media="print" rel="stylesheet" href="themes/ribbon/styles/print.css">
+=======
+	<link rel="stylesheet" href="themes/ribbon/styles/style.css">
+	<link rel="stylesheet" href="themes/ribbon/styles/print.css" media="print">
+	<!--
+		Для оформления отдельный слайдов, используйте
+		ID слайда для доступа к необходимым элементам
+		-->
+>>>>>>> d7bd266b349d047d62d300af690cba4cccb4df6e
 	<style>
-		#Cover H2 {
+		#Cover h2 {
 			color:#FFF;
 			text-align:center;
 			font-size:70px;
+			}
+		#FitToWidth h2,
+		#FitToHeight h2 {
+			color:#FFF;
+			text-align:center;
 			}
 	</style>
 </head>
 <body class="list">
 	<header class="caption">
-		<h1>Шаблон презентации Shower</h1>
+		<h1>Шаблон презентаций Shower</h1>
 		<p>Вадим Макеев, Opera Software</p>
 	</header>
-	<div class="slide bg" id="Cover"><div>
+	<div class="slide cover" id="Cover"><div>
 		<section>
 			<header>
 				<h2>Шаблон презентации Shower</h2>
 			</header>
 			<img src="pictures/cover.jpg" alt="">
-			<!-- © John Carey, http://fiftyfootshadows.net/ -->
 		</section>
 	</div></div>
 	<div class="slide" id="Header"><div>
@@ -88,16 +101,25 @@
 			<header>
 				<h2>Посередине</h2>
 			</header>
-			<object data="pictures/semantics.svg" type="image/svg+xml" width="300" height="300" class="middle"></object>
+			<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 512 512" class="middle">
+				<path fill="#0174A7" d="m315 259l18-18 179 179v-36l-161-161 18-18 143 143v-36l-125-125 18-18 107 107v-225c0-28-23-51-51-51h-410c-28 0-51 23-51 51v410c0 28 23 51 51 51h191c17-25 14-59-8-81l-63-63-63-63c-55-55-55-145-0-199 55-55 144-55 199 0l9 7h109l-163 163v-107l-9-9c-25-25-66-25-91-0-25 25-25 66 0 91l63 63 63 63c37 37 49 89 37 135h136c28 0 51-23 51-51v-5l-197-197z"/>
+			</svg>
 		</section>
 	</div></div>
-	<div class="slide bg" id="Picture"><div>
+	<div class="slide cover" id="FitToHeight"><div>
 		<section>
 			<header>
-				<h2>Картинка</h2>
+				<h2>Вписана по высоте</h2>
 			</header>
 			<img src="pictures/picture.jpg" alt="">
-			<!-- © Patrick H. Lauke, http://www.flickr.com/photos/redux/ -->
+		</section>
+	</div></div>
+	<div class="slide cover w" id="FitToWidth"><div>
+		<section>
+			<header>
+				<h2>Вписана по ширине</h2>
+			</header>
+			<img src="pictures/picture.jpg" alt="">
 		</section>
 	</div></div>
 	<div class="slide" id="CodeSample"><div>
@@ -150,49 +172,15 @@
 			<header>
 				<h2>Цитата</h2>
 			</header>
-			<blockquote cite="Аноним">
+			<blockquote>
 				<p>Очередь заведено создаете те про, джоэл должен написано вы всю. Получаете отказаться программистов миф мы, не пишете размере количества нее, по две.</p>
 			</blockquote>
 		</section>
 	</div></div>
-	<!--
-		Эта возможность находится в разработке!
-		
-		Добавьте класс «inner» к любому родительскому
-		элементу для того, чтобы обозначить блок
-		внутренней навигации. Нажатие кнопки «следующий»
-		добавит класс «active» каждому последующему
-		ребёнку, начиная с первого.
-
-		Конкретное поведение зависит от стилей
-		текущей темы: элемент в активном состоянии
-		может быть показан, будучи предварительно спрятан,
-		либо вы можете выделить его, к примеру, цветом
-		или полужирным начертанием.
-
-		Для того, чтобы начать слайд с первого активного
-		элемента, добавьте класс «active» вручную.
-
-		После активации последнего элемента, нажатие
-		кнопки «следующий» переключит следующий слайд.
-
-	<div class="slide" id="InnerNavigation"><div>
-		<section>
-			<header>
-				<h2>Внутренняя навигация</h2>
-			</header>
-			<ol class="inner">
-				<li class="active">This tool is provided</li>
-				<li>Without warranty, guarantee</li>
-				<li>Or much in the way of explanation
-				<li>Erase your hard drive.</li>
-			</ol>
-		</section>
-	</div></div> -->
 	<div class="slide" id="ThankYou"><div>
 		<section>
 			<header>
-				<h2>Шаблон презентации Shower</h2>
+				<h2>Шаблон презентаций Shower</h2>
 			</header>
 			<p>Вадим Макеев, Opera Software</p>
 			<ul>
@@ -209,6 +197,7 @@
 		-->
 	<div class="progress"><div></div></div>
 	<script src="scripts/script.js"></script>
-	<!-- Copyright © 2010–2011 Вадим Макеев, http://pepelsbey.net/ -->
+	<!-- Copyright © 2010–2012 Vadim Makeev — pepelsbey.net -->
+	<!-- Photos by John Carey — fiftyfootshadows.net -->
 </body>
 </html>

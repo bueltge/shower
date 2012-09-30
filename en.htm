@@ -1,16 +1,30 @@
 <!DOCTYPE HTML>
 <html lang="en-US">
 <head>
-	<title>Shower</title>
+	<title>Shower Presentation Template</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=1274, user-scalable=no">
+<<<<<<< HEAD
 	<link media="screen" rel="stylesheet" href="themes/ribbon/styles/style.css">
 	<link media="print" rel="stylesheet" href="themes/ribbon/styles/print.css">
+=======
+	<link rel="stylesheet" href="themes/ribbon/styles/style.css">
+	<link rel="stylesheet" href="themes/ribbon/styles/print.css" media="print">
+	<!--
+		To apply styles to the certain slides
+		use slide ID to get needed elements
+		-->
+>>>>>>> d7bd266b349d047d62d300af690cba4cccb4df6e
 	<style>
-		#Cover H2 {
+		#Cover h2 {
 			color:#FFF;
 			text-align:center;
 			font-size:70px;
+			}
+		#FitToWidth h2,
+		#FitToHeight h2 {
+			color:#FFF;
+			text-align:center;
 			}
 	</style>
 </head>
@@ -19,13 +33,12 @@
 		<h1>Shower Presentation Template</h1>
 		<p>Vadim Makeev, Opera Software</p>
 	</header>
-	<div class="slide bg" id="Cover"><div>
+	<div class="slide cover" id="Cover"><div>
 		<section>
 			<header>
 				<h2>Shower Presentation Template</h2>
 			</header>
 			<img src="pictures/cover.jpg" alt="">
-			<!-- © John Carey, http://fiftyfootshadows.net/ -->
 		</section>
 	</div></div>
 	<div class="slide" id="Header"><div>
@@ -88,16 +101,25 @@
 			<header>
 				<h2>In the Middle</h2>
 			</header>
-			<object data="pictures/semantics.svg" type="image/svg+xml" width="300" height="300" class="middle"></object>
+			<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 512 512" class="middle">
+				<path fill="#0174A7" d="m315 259l18-18 179 179v-36l-161-161 18-18 143 143v-36l-125-125 18-18 107 107v-225c0-28-23-51-51-51h-410c-28 0-51 23-51 51v410c0 28 23 51 51 51h191c17-25 14-59-8-81l-63-63-63-63c-55-55-55-145-0-199 55-55 144-55 199 0l9 7h109l-163 163v-107l-9-9c-25-25-66-25-91-0-25 25-25 66 0 91l63 63 63 63c37 37 49 89 37 135h136c28 0 51-23 51-51v-5l-197-197z"/>
+			</svg>
 		</section>
 	</div></div>
-	<div class="slide bg" id="Picture"><div>
+	<div class="slide cover" id="FitToHeight"><div>
 		<section>
 			<header>
-				<h2>Picture</h2>
+				<h2>Fit to height</h2>
 			</header>
 			<img src="pictures/picture.jpg" alt="">
-			<!-- © Patrick H. Lauke, http://www.flickr.com/photos/redux/ -->
+		</section>
+	</div></div>
+	<div class="slide cover w" id="FitToWidth"><div>
+		<section>
+			<header>
+				<h2>Fit to width</h2>
+			</header>
+			<img src="pictures/picture.jpg" alt="">
 		</section>
 	</div></div>
 	<div class="slide" id="CodeSample"><div>
@@ -150,43 +172,11 @@
 			<header>
 				<h2>Block Quote</h2>
 			</header>
-			<blockquote cite="Anonymous">
+			<blockquote>
 				<p>This tool is provided without warranty, guarantee, or much in the way of explanation. Note that use of this tool may or may not crash your browser, lock up your machine, erase your hard drive.</p>
 			</blockquote>
 		</section>
 	</div></div>
-	<!--
-		This feature is under development!
-		
-		Add class “inner” to any parent element
-		to start inner navigation section. Pressing
-		next button will add class “active” to every
-		next sibling child starting from the first one.
-
-		Actual behavior depends on styles of the current
-		theme: on active state you could show previously
-		hidden items or emphasize it for example by
-		color or bold font weight.
-
-		To start slide with the first active alement
-		add class “active” manually.
-
-		After activation of the last child pressing next
-		button will turn next slide.
-
-	<div class="slide" id="InnerNavigation"><div>
-		<section>
-			<header>
-				<h2>Inner Navigation</h2>
-			</header>
-			<ol class="inner">
-				<li class="active">This tool is provided</li>
-				<li>Without warranty, guarantee</li>
-				<li>Or much in the way of explanation
-				<li>Erase your hard drive.</li>
-			</ol>
-		</section>
-	</div></div> -->
 	<div class="slide" id="ThankYou"><div>
 		<section>
 			<header>
@@ -207,6 +197,7 @@
 		-->
 	<div class="progress"><div></div></div>
 	<script src="scripts/script.js"></script>
-	<!-- Copyright © 2010–2011 Vadim Makeev, http://pepelsbey.net/ -->
+	<!-- Copyright © 2010–2012 Vadim Makeev — pepelsbey.net -->
+	<!-- Photos by John Carey — fiftyfootshadows.net -->
 </body>
 </html>
