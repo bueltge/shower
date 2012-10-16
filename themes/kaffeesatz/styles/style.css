@@ -156,7 +156,7 @@ BODY {
 		/* content:counter(code, decimal-leading-zero)'.'; */
 		}
 	.slide pre mark {
-		padding:3px 8px;
+		padding:1px 3px;
 		-webkit-border-radius:8px;
 		-moz-border-radius:8px;
 		border-radius:8px;
