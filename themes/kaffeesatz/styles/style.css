@@ -22,7 +22,7 @@ BODY {
 	padding:80px 120px 0;
 	width:784px;
 	height:560px;
-	background:#F2F0DF;
+	background:#fff;
 	color:#8E9E82;
 	}
 	.slide section:before {
@@ -31,24 +31,27 @@ BODY {
 		right:120px;
 		width:40px;
 		height:120px;
-		background:url(../images/ribbon.svg) no-repeat;
 		content:'';
 		}
 
 /* Header */
 .slide header {
-	margin:0 0 58px;
+	margin:0 0 38px;
 	color:#666;
 	font:700 45px/1.13 'Yanone Kaffeesatz', sans-serif;
 	}
-
 /* Elements */
 .slide p {
 	margin:0 0 45px;
 	}
-.slide p.note {
+.slide .note {
 	color:#888;
+	font-size:120%;
+	margin-right:.2em;
 	}
+.slide p.note {
+	font-size:100%;
+}
 .slide a {
 	border-bottom:0.1em solid;
 	color:#607890;
@@ -77,6 +80,8 @@ BODY {
 	-webkit-border-radius:8px;
 	-moz-border-radius:8px;
 	border-radius:8px;
+	font-size:75%;
+	color:#333;
 	background:#A9C1D9;
 	-webkit-tab-size:4;
 	-moz-tab-size:4;
@@ -100,7 +105,7 @@ BODY {
 /* Lists */
 .slide ol,
 .slide ul {
-	margin:0 0 45px;
+	margin:0 0 5px;
 	counter-reset:list;
 	}
 	.slide ul ul,
@@ -125,15 +130,17 @@ BODY {
 	.slide ol > li:before {
 		counter-increment:list;
 		content:counter(list)'.';
+		padding:.6% 0 0 0;
 		}
 
 /* Code */
 .slide pre {
-	margin:0 0 45px;
+	margin:-30px 0 5px;
 	counter-reset:code;
 	white-space:normal;
 	}
 	.slide pre code {
+		font-size:60%;
 		display:block;
 		padding:0;
 		background:none;
@@ -146,7 +153,7 @@ BODY {
 		color:#CACCB6;
 		text-align:right;
 		counter-increment:code;
-		content:counter(code, decimal-leading-zero)'.';
+		/* content:counter(code, decimal-leading-zero)'.'; */
 		}
 	.slide pre mark {
 		padding:3px 8px;
@@ -169,7 +176,6 @@ BODY {
 
 /* Cover */
 .slide.cover section {
-	background:#000;
 	overflow:hidden;
 	}
 	.slide.cover section:before {

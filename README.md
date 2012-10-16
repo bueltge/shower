@@ -16,6 +16,7 @@ Or use just a keyboard to navigate:
 
 ## Usage examples
 
+* [The Customizer](http://bueltge.de/wordpress-customizer/)
 * [Mehrsprachigkeit mit WordPress](http://bueltge.de/wordpress-mehrsprachig/)
 * [WordPress Entwicklung](http://bueltge.de/wordpress-entwicklung/)
 
