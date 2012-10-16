@@ -11,8 +11,13 @@ This is my usefull fork of the [shower presentation template](http://pepelsbey.g
 Or use just a keyboard to navigate:
 
 * Press right arrow key to select first slide
-* Press `Enter` to enter presentation mode
+* Press `Enter` or `F5` to enter presentation mode
 * Press `Esc` to exit presentation mode
+* Press `Shift` + `Tab`, `Shift` + `Space`, `PageUp`, `Up`, `Left`, `h` or `k`  to previous slide
+* Press `Tab`, `Space`, `PageDown`, `Down`, `Right`, `l` or `j`  to next slide
+
+* Press `Home` for jump to first slide, start of slides
+* Press `End` for jump to last slide, end of slides
 
 ## Usage examples
 
