@@ -8,7 +8,7 @@
 @import url(reset.css);
 
 BODY {
-	font:400 28px/1.5 'Yanone Kaffeesatz', sans-serif;
+	font:400 28px/1.5 'Yanone Kaffeesatz', 'PT Sans', sans-serif;
 	counter-reset:paging;
 	}
 
@@ -38,7 +38,7 @@ BODY {
 .slide header {
 	margin:0 0 38px;
 	color:#666;
-	font:700 45px/1.13 'Yanone Kaffeesatz', sans-serif;
+	font:700 45px/1.13 'Yanone Kaffeesatz', 'PT Sans', sans-serif;
 	}
 /* Elements */
 .slide p {
@@ -98,7 +98,7 @@ BODY {
 	position:absolute;
 	margin:-15px 0 0 -80px;
 	color:#CCC;
-	font:300 220px/1 'Yanone Kaffeesatz', sans-serif;
+	font:300 220px/1 'Yanone Kaffeesatz', 'PT Sans', sans-serif;
 	content:'\201C'; /* ldquo */
 	}
 
