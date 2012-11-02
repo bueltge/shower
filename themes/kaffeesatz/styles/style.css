@@ -1,8 +1,9 @@
-/*
-	Ribbon theme for Shower presentation template: http://github.com/pepelsbey/shower
-	Copyright © 2010–2012 Vadim Makeev, http://pepelsbey.net/
-	Licensed under MIT license: https://github.com/pepelsbey/shower/wiki/License
-*/
+/**
+ * Ribbon theme for Shower presentation template: http://github.com/bueltge/shower
+ * Copyright © 2012 Frank Bültge, http://bueltge.de
+ * Based on https://github.com/pepelsbey/shower
+ * Licensed under MIT license: https://github.com/pepelsbey/shower/wiki/License
+ */
 
 @import url(fonts.css);
 @import url(reset.css);
@@ -11,6 +12,19 @@ BODY {
 	font:400 28px/1.5 'Yanone Kaffeesatz', 'PT Sans', sans-serif;
 	counter-reset:paging;
 	}
+
+/* Header
+---------------------------------------- */
+header.caption p.hint, header.caption ul.hint {
+	text-align:right;
+	margin-right:10%;
+	color:#8D8E90;
+	text-shadow:0 1px 1px #333;
+	}
+	header.caption ul.hint {
+		font-size:70%;
+		font-weight:400;
+		}
 
 /* Slide
 ---------------------------------------- */
