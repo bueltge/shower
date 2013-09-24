@@ -9,7 +9,7 @@
 @import url(reset.css);
 
 BODY {
-	font:400 28px/1.5 'Yanone Kaffeesatz', 'PT Sans', sans-serif;
+	font:400 28px/1.5 'Yanone Kaffeesatz', sans-serif;
 	counter-reset:paging;
 	}
 
@@ -52,7 +52,7 @@ header.caption p.hint, header.caption ul.hint {
 .slide header {
 	margin:0 0 38px;
 	color:#666;
-	font:700 45px/1.13 'Yanone Kaffeesatz', 'PT Sans', sans-serif;
+	font:700 45px/1.13 'Yanone Kaffeesatz', sans-serif;
 	}
 /* Elements */
 .slide p {
@@ -112,7 +112,7 @@ header.caption p.hint, header.caption ul.hint {
 	position:absolute;
 	margin:-15px 0 0 -80px;
 	color:#CCC;
-	font:300 220px/1 'Yanone Kaffeesatz', 'PT Sans', sans-serif;
+	font:300 220px/1 'Yanone Kaffeesatz', sans-serif;
 	content:'\201C'; /* ldquo */
 	}
 
@@ -195,7 +195,7 @@ header.caption p.hint, header.caption ul.hint {
 	.slide.cover section:before {
 		display:none;
 		}
-.slide.cover img,
+.slide.cover img, .slide.shout img,
 .slide.cover svg,
 .slide.cover video,
 .slide.cover object {
@@ -210,7 +210,7 @@ header.caption p.hint, header.caption ul.hint {
 	-o-transform:translateX(-50%);
 	transform:translateX(-50%);
 	}
-.slide.cover.w img,
+.slide.cover.w img, .slide.shout img,
 .slide.cover.w svg,
 .slide.cover.w video,
 .slide.cover.w object {
