@@ -419,6 +419,7 @@ header.caption p.hint, header.caption ul.hint {
 	left:118px;
 	border-radius:7px;
 	border:2px solid rgba(255, 255, 255, 0.2);
+	z-index:9999;
 	}
 	.full .progress DIV {
 		width:0;
