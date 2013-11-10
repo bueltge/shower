@@ -9,6 +9,7 @@ This is my useful fork of the [shower presentation template](http://pepelsbey.gi
  * Press `Esc` or `F5` to exit presentation mode
 
 ## Usage examples
+ * [WordPress im Enterprise Umfeld](http://bueltge.de/wordpress-enterprise/)
  * [The Customizer](http://bueltge.de/wordpress-customizer/)
  * [Mehrsprachigkeit mit WordPress](http://bueltge.de/wordpress-mehrsprachig/)
  * [WordPress Entwicklung](http://bueltge.de/wordpress-entwicklung/)
