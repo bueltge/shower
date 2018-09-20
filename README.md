@@ -18,4 +18,4 @@ woher nehmen, wenn nicht stehlen?](https://bueltge.de/hiring-is-hard/)
  * [WordPress Entwicklung](http://bueltge.de/wordpress-entwicklung/)
 
 
-Licensed under [MIT License](http://en.wikipedia.org/wiki/MIT_License), see [license page](https://github.com/pepelsbey/shower/wiki/License) for details.
+Licensed under [MIT License](http://en.wikipedia.org/wiki/MIT_License), see [license page](https://raw.githubusercontent.com/bueltge/shower/master/LICENSE) for details.
